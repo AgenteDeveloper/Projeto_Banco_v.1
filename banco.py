@@ -63,7 +63,7 @@ while True:
     elif opcao == "E":
         print("\n<<<<<<Extrato>>>>>")
         print("Sem movimentações na conta" if not extrato else extrato)
-        print( f"\nSaque: R$ {valor:.2f}")
+        print(f"Saldo: R$ {saldo:.2f} \n")
         print("<<<<<<<<<>>>>>>>>>")
 
 
